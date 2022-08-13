@@ -1,0 +1,38 @@
+
+h1{
+    background-color: rgba(0, 255, 213, 0.616);
+    font-family: 'Lobster', cursive;
+    font-style: oblique;
+    font-weight:bolder;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 2px 2px 3px #d48853,2px 2px 3px #c7468f;
+}
+body
+{
+    background-image: url("back2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+    background-size: cover;
+}
+p{
+    text-align: left;
+    word-spacing: 2px;
+}
+table
+{
+    width: 100%;
+    height: 100%;
+}
+table,tbody,tfoot,td,th,tr
+{
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+th
+{
+  background: url("back4.jpg");
+  color: white;
+}

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;1,400;1,700&family=Oswald:wght@400;500&family=Poppins&family=Yuji+Hentaigana+Akari&display=swap');
+.header
+{
+    font-family: 'Moo Lah Lah', cursive;
+    font-weight: 900;
+     text-align: center;
+     font-size: 40px;
+     text-decoration: underline;
+}
+body{
+    background-color:#d9f5c6;
+}
+*{
+  box-sizing: border-box;
+  font-family: 'Yuji Hentaigana Akari', cursive;
+  margin: 15px 10px;
+  font-size:25px;
+  padding: 8px;
+}
+.container{
+    background-color:#dff2ce;
+    padding:5px 20px 15px 20px;
+    border:2px solid #bcf39d;
+    border-radius:   20px;
+}
+#address{
+    width:100%;
+    height: fit-content;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+input[type="reset"],
+input[type="submit"],
+select,
+textarea{
+    padding: 12px;
+    background-color: #f5d6ba;
+}
+.header
+{
+    font-weight: bolder;
+}
+input[type="submit"]:hover
+{
+    padding: 20px;
+    background-color:rgb(98, 218, 208);
+    border-radius: 20px;
+}
+input[type="reset"]:hover
+{
+    padding: 20px;
+    background-color:rgb(98, 218, 208);
+    border-radius: 20px;
+}
+input[type="radio"]:hover
+{
+    padding: 20px;
+    background-color:rgb(98, 218, 208);
+    border-radius: 20px;
+}
+
