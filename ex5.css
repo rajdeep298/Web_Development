@@ -1,0 +1,46 @@
+.c1{
+    margin: 10px;
+    padding: 10px;
+    background-color:#8563d4 ;
+}
+.box1,.box2{
+    height: 100px;
+    width: 100px;
+}
+.box1
+{
+   margin: 10px;
+   background-color: #5ac7d1;
+}
+.box2{
+    padding: 10px;
+    background-color: blanchedalmond;
+}
+.wrapper{
+    background-color:#d468c2;
+}
+nav a{
+    text-decoration: none;
+    color: azure;
+    text-align: center;
+    padding: 10px;
+    float: left;
+    overflow: hidden;
+}
+nav{
+    background-color:aqua;
+    overflow: hidden;
+}
+nav a:hover{
+    color: black;
+}
+table,th,tr,td{
+    border: 2px solid black;
+    padding: 15px;
+    border-spacing: 5px;
+    background-image: url("back.jpg");
+
+}
+th{
+    background-image: url("back2.jpg");
+}
