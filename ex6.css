@@ -1,0 +1,28 @@
+body
+{
+    color: rgb(196, 34, 155);
+}
+.c1 a
+{
+    color:inherit;
+}
+.c2 a
+{
+    color: initial;
+}
+.c3 a
+{
+    color: unset;
+}
+.imp
+{
+   color: black !important;
+}
+.box 
+{
+    border: 10px solid black;
+    width:100px;
+    height: 100px;
+    overflow: auto;
+}
+

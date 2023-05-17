@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body >
+    <form class="container">
+       <h1 class="header">Payment Form</h1>
+            <p>@All fields required are followed by *</p>
+            <fieldset>
+        <legend><h2> <u>A) Contact Information</u></h2></legend>
+        <p> Name:*<input type="text" name="name" required placeholder="Nitai Das"  ></p>
+        <fieldset >
+            <legend><h3><u>Selct Gender:*</u></h3></legend>
+            <ul>
+           <li> Male <input type="radio" name="gender" id="male" required></li>
+        <li>Female <input type="radio" name="gender" id="female" required></li>
+        <li>  Other <input type="radio" name="gender" id="other" required></li>
+        </ul></fieldset>
+        <div> 
+            Address:* <textarea name="address" id="address" cols="30" rows="10" required placeholder="11/1 NN Road,Shyambazar,Kol-123456"></textarea>
+        </div>
+        <p> Email:* <input type="email" name="email" id="email" required placeholder="sarojdas11@gmail.com"></p> 
+        <p>Pincode:* <input type="number" name="pin" id="pin" required></p> 
+            </fieldset>
+        <hr>
+        <fieldset>
+        <legend><h2><u>B) Payment Information:</u></h2></legend>
+          <fieldset>
+        <p>Card type:* 
+            <select name="card type" id="card_type" required>
+                <option value="" >--Select Card Type--</option>
+                <option value="Debit" required>Debit Card</option>
+                <option value="Credit" required>Credit Card</option>
+                <option value="master" required>Master Card</option>
+                <option value="rupay" required>Rupay Card</option>
+            </select>
+        </p>
+        <p>Card Number:* <input type="password" name="number" id="number" required placeholder="AAAA-BBBB-CCCC-DDDD"></p>
+        <p>
+            Expiration Date:* <input type="date" name="expiration_date" id="expiration_date" required>
+        </p>
+        <p>
+            CVV:* <input type="number" name="number" id="number" required placeholder="999">
+        </p>
+           </fieldset>
+        </fieldset>
+        </fieldset> 
+        <input type="submit" value="Pay Now">
+        <input type="reset" value="Reset Form"> 
+    </form>
+</body>
+</html>
