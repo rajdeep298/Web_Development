@@ -6,12 +6,10 @@
     font-size: 20px;
     padding: 5px;
     color: whitesmoke;
-    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     display: flex;
     background-color: #b1040e;
-    margin: 0 0 0 0;
-    margin-top: -30px;
+    margin-top: -50px;
     margin-left: -8px;
     margin-right: -8px;
     font-family:  Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
@@ -44,7 +42,6 @@ h3{
     font-weight: bold;
     display: flex;
     background-color: #b1040e;
-    margin: 0 0 0 0;
     margin-top: 50px;
     margin-right: -8px;
     font-family:  Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
@@ -91,9 +88,9 @@ a:hover{
     color: white;
     border: 2px solid #b1040e;
 }
-h1{
-    margin-right: 400px;
-}
 ul{
     list-style-type:i;
+}
+h1{
+    margin-right: 700px;
 }
