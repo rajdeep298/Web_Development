@@ -7,7 +7,6 @@
     <list default="true" id="0eb74ea1-d32b-450c-a29a-72bbcffdbba0" name="Changes" comment="Some mild changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CC8_Assignment/Question-1/page-2.css" beforeDir="false" afterPath="$PROJECT_DIR$/CC8_Assignment/Question-1/page-2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CC8_Assignment/Question-1/page-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/CC8_Assignment/Question-1/page-2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +76,8 @@
       <workItem from="1685640878746" duration="2958000" />
       <workItem from="1685645498852" duration="446000" />
       <workItem from="1685673680284" duration="7871000" />
-      <workItem from="1685719675049" duration="1124000" />
+      <workItem from="1685719675049" duration="1195000" />
+      <workItem from="1685721041212" duration="192000" />
     </task>
     <task id="LOCAL-00001" summary="Some mild changes">
       <created>1685299595054</created>
@@ -191,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685720750405</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Some mild changes">
+      <created>1685720989322</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1685720989322</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
