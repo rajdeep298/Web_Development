@@ -26,7 +26,7 @@
         </nav>
         <section id="bottom">
             <h2>Welcome to the <?php echo $data[$_GET["index"]]['title']?> Department!</h2>
-            <p>Our <?php echo $data[$_GET["index"]]['title']?> Department is dedicated to providing a comprehensive and enriching educational experience in the fascinating field of <?php echo $data['index']['title']?>. With a team of highly accomplished faculty members, state-of-the-art facilities, and a vibrant academic community, we strive to nurture intellectual curiosity and develop critical thinking skills among our students.</p>
+            <p>Our <?php echo $data[$_GET["index"]]['title']?> Department is dedicated to providing a comprehensive and enriching educational experience in the fascinating field of <?php echo $data[$_GET["index"]]['title']?>. With a team of highly accomplished faculty members, state-of-the-art facilities, and a vibrant academic community, we strive to nurture intellectual curiosity and develop critical thinking skills among our students.</p>
             <p><h3>Department Overview:</h3>
                 Our department is committed to excellence in both teaching and research. We offer a wide range of programs and courses designed to equip students with a strong foundation in fundamental physics principles, problem-solving abilities, and hands-on laboratory skills. Whether you are pursuing an undergraduate or graduate degree, our programs will empower you to explore the intricacies of the universe and prepare you for various career paths.
             </p>
