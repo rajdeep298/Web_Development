@@ -13,7 +13,7 @@
         global$data;
     ?>
         <header id="head">
-            <h1 > <?php echo $data[$_GET["index"]]['title'] ?></h1> </h1>
+            <h1 > <?php echo $data[$_GET["index"]]['title'] ?></h1>
             <nav id="nav1">
                 <a href="page-1.html" class="tag">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="page-3.html" class="tag">Admission</a>&nbsp;&nbsp;&nbsp;&nbsp;
