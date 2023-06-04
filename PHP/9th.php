@@ -1,4 +1,4 @@
-<html>
+<html lang="en">
     <head>
         <title>9th PHP Program</title>
     </head>
