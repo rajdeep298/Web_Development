@@ -55,6 +55,6 @@
 
                 We invite you to explore our website to learn more about the Physics Department at [College Name]. Should you have any questions or require further information, please do not hesitate to contact us. We look forward to welcoming you to our vibrant academic community.</p>
         </section>
-        <center><button id="btn1"><a href="page-1.html">Back to Home</a></button></center>
+        <center><button id="btn1"><a href="page-2.html">Back to Academics</a></button></center>
 </body>
 </html>

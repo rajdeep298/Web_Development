@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0eb74ea1-d32b-450c-a29a-72bbcffdbba0" name="Changes" comment="Some mild changes">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC8_Assignment/Question-1/page-3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC8_Assignment/Question-1/page-4.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CC8_Assignment/Question-1/page-2.css" beforeDir="false" afterPath="$PROJECT_DIR$/CC8_Assignment/Question-1/page-2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CC8_Assignment/Question-1/page-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/CC8_Assignment/Question-1/page-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CC8_Assignment/Question-1/page-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/CC8_Assignment/Question-1/page-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CC8_Assignment/Question-1/page-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/CC8_Assignment/Question-1/page-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CC8_Assignment/Question-1/Course.php" beforeDir="false" afterPath="$PROJECT_DIR$/CC8_Assignment/Question-1/Course.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +86,7 @@
       <workItem from="1685721041212" duration="855000" />
       <workItem from="1685901711034" duration="3384000" />
       <workItem from="1685940891581" duration="660000" />
-      <workItem from="1685942094861" duration="7431000" />
+      <workItem from="1685942094861" duration="7581000" />
     </task>
     <task id="LOCAL-00001" summary="Some mild changes">
       <created>1685299595054</created>
@@ -249,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685908147279</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Some mild changes">
+      <created>1685949602684</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1685949602684</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
