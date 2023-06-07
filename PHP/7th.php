@@ -12,7 +12,7 @@
         </form>
         Addition: <?php echo $_GET["num1"]+$_GET["num2"]?>
         <br>
-        Substraction: <?php echo $_GET["num1"]-$_GET["num2"]?>
+        Subtraction: <?php echo $_GET["num1"]-$_GET["num2"]?>
         <br>
         Multiplication: <?php echo $_GET["num1"]*$_GET["num2"]?>
         <br>
