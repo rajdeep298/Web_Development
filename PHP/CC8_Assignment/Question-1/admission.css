@@ -1,15 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Teko:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
 *{
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-}
-#body{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
 }
 #header{
     display: flex;
@@ -18,21 +12,10 @@
     align-items: center;
     flex-direction: column;
     height: 100vh;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29sbGVnZSUyMGNvdXJzZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60");
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("https://st2.depositphotos.com/3591429/11430/i/600/depositphotos_114301818-stock-photo-students-studying-together.jpg");
     background-size: cover;
     font-family: 'Teko', sans-serif;
     font-size: 30px;
-}
-#sub_name{
-    font-family: 'Bacasime Antique', serif;
-    font-size: 70px;
-    color:whitesmoke;
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 20px;
-    background-color: rgba(0,0,0,0);
-    backdrop-filter: blur(10px);
 }
 body header div ul li {
     list-style: none;
@@ -72,24 +55,25 @@ body header div ul li button a:hover{
     padding:10px;
     transition: 0.5s;
 }
-#person{
-    width: 20%;
-    height: 20%;
-    border-radius: 50%;
-    background-color:grey;
+#abt_clg{
+    background-color: rgba(255, 255, 255, 0.7); /* White background with 70% opacity */
+    padding: 20px;
+    margin:10px;
+    backdrop-filter: blur(10px);
+    font-family: 'Bacasime Antique', serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: column;
 }
-#mid{
-    text-align: center;
+#bottom{
+    text-align: left;
     font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 25px;
     padding: 20px;
     border-radius: 20px;
     box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
-    margin: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
+    margin: 30px 20px 20px;
 }
 footer{
     font-size: 20px;
@@ -136,27 +120,24 @@ body header div button :hover{
     font-weight: bold;
     position: absolute;
     top: 50%;
-    transition: 0.5s;
 }
-#btn1 a{
-    color: black;
-    border: 2px solid black;
-    text-decoration: none;
-    padding:10px;
-    margin: 10px 0 10px 0;
+#submit{
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
     border-radius: 20px;
-    font-family: 'Lato', sans-serif;
-    font-weight: bolder;
-    background-color:#d6b154;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    padding: 10px;
+    background-color: #b1040e;
+    color: whitesmoke;
+    font-family:  Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
-#btn1 a:hover{
-    background-color: #b0350c;
-    color: black;
-    border: 2px solid black;
-    padding:20px;
-    margin: 10px 0 10px 0;
+fieldset{
+    border: 2px solid;
     border-radius: 20px;
-    font-family: 'Lato', sans-serif;
-    font-weight: bolder;
-    transition: 0.5s;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    margin: 30px 20px 20px;
 }

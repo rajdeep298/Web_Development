@@ -2,27 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Academic</title>
-    <link type="text/css" rel="stylesheet" href="page-2.css">
+    <title>Academics</title>
+    <link rel="stylesheet" href="academics.css">
 </head>
 <body>
-    <header id="head">
-        <h1>New Alipore College:Academics</h1>&nbsp;&nbsp;
-        <nav id="nav1">
-            <a href="page-1.html" class="tag">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="page-3.html" class="tag">Admission</a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="page-4.html" class="tag">Gallery</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        </nav>
+    <header id="header">
+        <div id="head_div">
+            <h1>Kolkata College</h1>
+            <ul>
+                <li><button><a href="index.html">Home</a></button></li>
+                <li><button><a href="Admissions.html">Admissions</a></button></li>
+                <li><button><a href="Gallery.html">Gallery</a></button></li>
+            </ul>
+        </div>
+        <div id="description" >
+            <h2>Welcome to Academics Page!</h2>
+            <h2>Start your career with us</h2>
+            <div id="div_btn">
+                <button><a href="#mid">About Academics</a></button>
+                <button><a href="#bottom">Explore Courses</a></button>
+            </div>
+        </div>
     </header>
-    <img src="academicheader.jpg" id="img1">
-    <nav id="nav2">
-            <a href="#bottom">About Academics</a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="#bottom2"> Courses Offered</a>
-            <br>
-    </nav>
-    <section id="bottom">
+    <section id="mid">
         <h2>Welcome to the Academic Tab of our College Website!</h2>
 
         At New Alipore College, we are dedicated to providing a vibrant and enriching academic experience for our students. Our academic programs are designed to inspire intellectual curiosity, foster critical thinking skills, and prepare students for successful careers in their chosen fields. Here's what you can expect to find in our Academic Tab:
@@ -44,19 +46,22 @@
         <p>Welcome to a world of academic excellence at New Alipore College!</p>
         <br>
     </section>
-    <section id="bottom2">
+    <section id="bottom">
         <nav>
             <h2>Select your stream</h2>
             <br>
-            <a href="#science"><img src="science.jpg" width="350px" alt="science" height="250px"></a>
-            <a href="#arts"><img src="humanities.jpg" width="350px" height="250px"></a>
-            <a href="#commerce"><img src="commerce.png" width="350px" height="250px" alt="commerce"></a>
+            <div id="sub_selector">
+                <a href="#science" class="subj"><img src="https://media.istockphoto.com/id/935221094/vector/design-concept-of-word-science-website-banner.jpg?s=170667a&w=0&k=20&c=R9TD1cYVuu0cbDN2AoQ0fFW0F95O5nYb17bENQx1wLU=" width="350px" alt="science" height="250px"></a>
+                <a href="#arts" class="subj"><img src="https://as2.ftcdn.net/v2/jpg/01/26/41/71/1000_F_126417127_nFBHKn5XI4I2FGD5C7YbQANcpo9p5rJi.jpg" width="350px" alt="humanities" height="250px"></a>
+                <a href="#commerce" class="subj"><img src="https://besdegreecollege.in/wp-content/uploads/2021/03/BCOM-Banner.jpg" width="350px" alt="commerce" height="250px"></a>
+            </div>
+
             <br>
             <br>
             <br>
         </nav>
     </section>
-    
+
     <section id="science">
         <ul>
             <h2><u>Science</u></h2>
@@ -73,7 +78,7 @@
         <li><a href="./Course.php?index=4" >B.Sc. (Honours) in Bengali</a></li>
         <li><a href="./Course.php?index=5" >B.Sc. (Honours) in English</a></li>
         <li><a href="./Course.php?index=6" >B.Sc. (Honours) in Philosophy</a></li>
-</section>
+    </section>
     <section id="commerce">
         <ul>
             <h2><u>Commerce</u></h2>
@@ -81,5 +86,18 @@
             <li><a href="./Course.php?index=7" >B.Sc. (Honours) in Accountancy</a></li>
         </ul>
     </section>
+    <footer >
+        <div id="foot">
+            <div>
+                <ul><h3>Contact:</h3>
+                    <li>**********</li>
+                    <li>**********</li>
+                    <li>**********</li>
+                </ul>
+            </div>
+            <div><h3>Address:</h3>**/** ******* Road,*****,Kolkata-******</div>
+        </div>
+        <div><h3>© 2019 All Rights Reserved | Powered by RK Technologies</h3></div>
+    </footer>
 </body>
 </html>
