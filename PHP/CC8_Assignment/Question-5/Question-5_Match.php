@@ -5,8 +5,7 @@
             echo "Welcome @".$username."<br>";
             echo "Login time:".date("h:i:sa d-m-y");
         }
-        else{
+        else {
             echo "Invalid username or password";
         }
-        echo "fuck off"
 ?>
