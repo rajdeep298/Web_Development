@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0eb74ea1-d32b-450c-a29a-72bbcffdbba0" name="Changes" comment="Some mild changes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CC8_Assignment/Question-1/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/CC8_Assignment/Question-1/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Script/1-Variables.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +32,9 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2QQrlJSpvy1zdyFhL0KB0VOBw18" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -106,6 +105,8 @@
       <workItem from="1688378391789" duration="514000" />
       <workItem from="1689140530428" duration="844000" />
       <workItem from="1694925582008" duration="622000" />
+      <workItem from="1695354441843" duration="96000" />
+      <workItem from="1695354596018" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="Some mild changes">
       <created>1685299595054</created>
