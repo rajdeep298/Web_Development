@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0eb74ea1-d32b-450c-a29a-72bbcffdbba0" name="Changes" comment="Some mild changes">
-      <change afterPath="$PROJECT_DIR$/../Java_Script/1-Variables.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +107,9 @@
       <workItem from="1694925582008" duration="622000" />
       <workItem from="1695354441843" duration="96000" />
       <workItem from="1695354596018" duration="3000" />
+      <workItem from="1696949849701" duration="48000" />
+      <workItem from="1697044767550" duration="26000" />
+      <workItem from="1700585198298" duration="38000" />
     </task>
     <task id="LOCAL-00001" summary="Some mild changes">
       <created>1685299595054</created>
@@ -299,7 +302,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688378888397</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Some mild changes">
+      <option name="closed" value="true" />
+      <created>1696949870995</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1696949870995</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
