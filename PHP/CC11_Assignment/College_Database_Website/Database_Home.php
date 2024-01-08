@@ -1,5 +1,10 @@
+<?php
+    session_start();
+    if (!isset($_SESSION["loggedIn"])) {
+        header("Location: Login.php");
+    }
+?>
 <!DOCTYPE html>
-<!--suppress XmlDuplicatedId -->
 <html lang="en">
 <head>
     <title>Database</title>
@@ -50,9 +55,9 @@
                         <input type="text" name="colType5" id="colType">
                         <label for="colName">Column6 Names</label>
                         <input type="text" name="colName6" id="colName">
-                        <input type="submit" value="Create" name="submit">
                         <label for="colType">Column6 Types</label>
                         <input type="text" name="colType6" id="colType">
+                        <input type="submit" value="Create" name="submit">
                     </div>
                 </section>
                 <section id="delete">
@@ -94,7 +99,7 @@
                         <input type="text" name="colName" id="colName">
                         <label for="colValue">Updated Value</label>
                         <input type="text" name="colValue" id="colValue">
-                        <input type="submit" value="UpdateRec" name="submit">
+                        <input type="submit" value="UpdateRec" name="submit" name="submit">
                     </div>
                 </section>
                 <section id="show">
@@ -104,8 +109,12 @@
                         <input type="submit" value="Show" name="submit">
                     </div>
                 </section>
+                <section id="logout">
+                    <div class="create">
+                        <input type="submit" value="Logout" name="submit">
+                    </div>
+                </section>
             </form>
-            
         </div>
     </div>
 </body>

@@ -1,3 +1,9 @@
+<?php
+    session_start();
+    if (!isset($_SESSION["loggedIn"])) {
+        header("Location: Login.php");
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -246,6 +252,13 @@
                     else{
                         showTables($conn,$tableName);
                     }
+                    break;
+                case "Logout":
+                    session_start(); // Start the session
+                    session_unset(); // Unset all session variables
+                    session_destroy(); // Destroy the session
+
+                    header("Location: Logout.php");
                     break;
                 default:
                     echo "Invalid operation";
