@@ -69,7 +69,7 @@
             } else {
                 echo "<p class='error-message'>Invalid username or password</p>";
                 echo "<p>Please try again</p>";
-                echo "<a class='login-link' href='Login.php'>Login</a>";
+                echo "<a class='login-link' href='Login.html'>Login</a>";
             }
         ?>
     </div>
