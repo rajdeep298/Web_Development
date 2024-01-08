@@ -57,21 +57,21 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <?php 
-            $userName = $_POST["username"];
-            $password = $_POST["password"];
-            if ($userName == "rajdeep298" && $password == "Rajdeep@2023") {
-                $_SESSION["loggedIn"] = true;
-                echo "<p class='welcome-message'>Welcome $userName</p>";
-                echo "<p>You have successfully logged in</p>";
-                echo "<a href='Database_Home.php?username=$userName&password=$password'><img src='Database.png' alt='Database'></a>";
-            } else {
-                echo "<p class='error-message'>Invalid username or password</p>";
-                echo "<p>Please try again</p>";
-                echo "<a class='login-link' href='Login.html'>Login</a>";
-            }
-        ?>
-    </div>
+<div class="container">
+    <?php
+    $userName = $_POST["username"];
+    $password = $_POST["password"];
+    if ($userName == "rajdeep298" && $password == "Rajdeep@2023") {
+        $_SESSION["loggedIn"] = true;
+        echo "<p class='welcome-message'>Welcome $userName</p>";
+        echo "<p>You have successfully logged in</p>";
+        echo "<a href='Database_Home.php?username=$userName&password=$password'><img src='Database.png' alt='Database'></a>";
+    } else {
+        echo "<p class='error-message'>Invalid username or password</p>";
+        echo "<p>Please try again</p>";
+        echo "<a class='login-link' href='Login.html'>Login</a>";
+    }
+    ?>
+</div>
 </body>
 </html>
