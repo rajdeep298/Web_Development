@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Arrow functions are handy for one-liners. They come in two flavors:
+        // Without arguments:
+        let sayHi = () => alert("Hello");
+        sayHi();
+
+        // With a single argument:
+        let double = n => n * 2;
+        alert( double(3) ); // 6
+
+        // With multiple arguments:
+        let sum = (a, b) => a + b;
+        alert( sum(1, 2) ); // 3
+
+        // If there are no arguments, parentheses should be empty (but they should be present):
+        let sayHello = () => alert("Hello");
+        sayHello();
+
+        // Multiline arrow functions
+        let sum1 = (a, b) => {  // the curly brace opens a multiline function
+            let result = a + b;
+            return result; // if we use curly braces, then we need an explicit "return"
+        };
+        alert( sum1(1, 2) ); // 3
+
+        // Arrow functions can be used in the same way as Function Expressions.
+        // For instance, to dynamically create a function:
+        let age = prompt("What is your age?", 18);
+
+        let welcome = (age < 18) ?
+        () => alert('Hello') :
+        () => alert("Greetings!");
+
+        welcome(); // This will call the function that was created dynamically
+
+        // Arrow functions do not have their own "this". If "this" is accessed, it is taken from the outer "normal" function.
+        // For instance, here arrow() uses this from the outer user.sayHi() method:
+        let user = {
+            firstName: "Ilya",
+            sayHi() {
+                let arrow = () => alert(this.firstName);
+                arrow();
+            }
+        };
+
+        user.sayHi(); // Ilya
+
+        // Arrow functions are best used:
+        // When we don't need the function to have its "this".
+        // In methods, to fix the value of "this" to the object.
+        // For short functions.
+    </script>
+</body>
+</html>
