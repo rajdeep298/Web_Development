@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let user;
+
+        // let user = "John";
+
+        alert(user ?? "Anonymous"); // Anonymous (user is undefined)
+
+        //Nested nullish coalescing operators
+        let firstName= null;
+        let lastName= null;
+        let nickName= "SuperCoder";
+
+        // shows the first defined value:
+        alert(firstName ?? lastName ?? nickName ?? "Anonymous"); // SuperCoder
+
+        //Difference between OR and Nullish Coalescing Operator
+        let height = 0;
+
+        alert(height || 100); // 100
+        alert(height ?? 100); // 0
+    </script>
+</body>
+</html>

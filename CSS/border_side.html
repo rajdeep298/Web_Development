@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Normal Border */
+        p.normal {
+        border: 2px solid red;
+        padding: 5px;
+        }
+
+        /* Rounded Border 1 */
+        p.round1 {
+        border: 2px solid red;
+        border-radius: 5px;
+        padding: 5px;
+        }
+
+        /* Rounded Border 2 */
+        p.round2 {
+        border: 2px solid red;
+        border-radius: 8px;
+        padding: 5px;
+        }
+
+        /* Rounded Border 3:Max */
+        p.round3 {
+        border: 2px solid red;
+        border-radius: 12px;
+        padding: 5px;
+        }
+
+        /* Shorthand property for border-style */
+        p.five {
+            border: 4px solid black;
+        }
+
+        /* Four values */
+        p.four {
+        border-style: dotted solid double dashed;
+        }
+
+        /* Three values */
+        p.three {
+        border-style: dotted solid double;
+        }
+
+        /* Two values */
+        p.two {
+        border-style: dotted solid;
+        }
+
+        /* One value */
+        p.one {
+        border-style: dotted;
+        }
+    </style>
+</head>
+<body>
+    <h2>The border-radius Property</h2>
+    <p>This property is used to add rounded borders to an element:</p>
+
+    <p class="normal">Normal border</p>
+    <p class="round1">Round border</p>
+    <p class="round2">Rounder border</p>
+    <p class="round3">Roundest border</p>
+
+    <h2>Individual Border Sides</h2>
+    <p class="five">Shorthand One</p>
+    <p class="four">4 different border styles.</p>
+    <p class="three">3 different border styles.</p>
+    <p class="two">2 different border styles.</p>
+    <p class="one">1 border style.</p>
+</body>
+</html>

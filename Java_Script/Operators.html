@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operators</title>
+</head>
+<body>
+    <script>
+
+        //Binary Operators
+        // let a = 1;
+        // let b=-a;
+        // alert(b); // -1, unary negation was applied
+        // a=-b; //
+        // alert(a); // 1, unary negation was applied twice
+
+        //Exponentiation
+        // alert(2 ** 2); // 4  (2 * 2)
+        // alert(2 ** 3); // 8  (2 * 2 * 2)
+        // alert(2 ** 4); // 16 (2 * 2 * 2 * 2)
+        // alert(4 ** (1/2)); // 2 (power of 1/2 is the same as a square root)
+
+        //String Concatenation
+        let s = "my" + "string";
+        alert(s); // mystring
+
+        alert('1' + 2); // "12"
+        alert(2 + '1'); // "21"
+
+        alert(2 + 2 + '1' ); // "41" and not "221"
+        // alert(6 - '2'); // 4, converts '2' to a number
+
+        // alert('6' / '2'); // 3, converts both operands to numbers
+
+
+        //Assignment Operators
+        let a = 1;
+        let b = 2;
+
+        let c = 3 - (a = b + 1);
+
+        alert( a ); // 3
+        alert( c ); // 0
+
+
+    </script>
+</body>
+</html>

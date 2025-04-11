@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Admission</title>
+        <link type="text/css" rel="stylesheet" href="admission.css">
+    </head>
+    <body>
+    <header id="header">
+        <div id="head_div">
+            <h1>Kolkata College</h1>
+            <ul>
+                <li><button><a href="index.html">Home</a></button></li>
+                <li><button><a href="Academics.html" >Academics</a></button></li>
+                <li><button><a href="Gallery.html">Gallery</a></button></li>
+            </ul>
+        </div>
+        <div id="description" >
+            <h2>Welcome to Admissions</h2>
+            <button><a href="#bottom">Start Your Application</a></button>
+        </div>
+    </header>
+    <section id="bottom">
+        <form>
+            <h2>Admission Form</h2>
+            <h4>*marked fields are required</h4>
+            <fieldset>
+                <legend><h2>Basic Information</h2></legend>
+                <ul>
+                    <li>
+                        <label for="name">Name:*</label>
+                        <input type="text" id="name" name="name"  placeholder="Enter your name" required />
+                    </li>
+                    <br>
+                    <li>
+                        <label for="email">Email:*</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required />
+                    </li>
+                    <br>
+                    <li>
+                        <label for="phone">Phone:*</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required />
+                    </li>
+                    <br>
+                    <li>
+                        <label for="dob">Date of Birth:*</label>
+                        <input type="date" id="dob" name="dob" placeholder="Enter your date of birth" required />
+                    </li>
+                    <br>
+                    <li>
+                        <label >Gender:*</label>
+                        <select name="card type" id="card_type" required>
+                            <option value="" >--Select Gender--</option>
+                            <option value="male" required>Male</option>
+                            <option value="female" required>Female</option>
+                            <option value="other" required>Other</option>
+                        </select>
+                    </li>
+                    <br>
+                    <li>
+                        <label for="address">Address:*</label>
+                        <textarea id="address" name="address" placeholder="Enter your address" required></textarea>
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend><h2>Academic Information</h2></legend>
+                <fieldset>
+                    <legend><h2>Marks</h2></legend>
+                    <ul><h3>Language Subjects:</h3>
+                        <li><label >First Language Subject:*</label>
+                            <select>
+                                <option required value="">--1st Language Subject--</option>
+                                <option value="1stSubject">Bengali</option>
+                                <option value="1stSubject">English</option>
+                            </select>&nbsp;&nbsp;&nbsp;
+                            <br>
+                            <br>
+                            Number:*<input type="number">Out of 100
+                        </li>
+                        <br>
+                        <br>
+                        <hr>
+                        <br>
+                        <li>
+                            <label >Second Language Subject:*</label>
+                            <select>
+                                <option required value="">--2nd Language Subject--</option>
+                                <option value="1stSubject">Bengali</option>
+                                <option value="1stSubject">English</option>
+                            </select>
+                            <br>
+                            <br>
+                            Number:*<input type="number">Out of 100
+                        </li>
+
+                        <br>
+                        <br>
+                        <br>
+                    </ul>
+
+                    <hr id="mid">
+                    <br>
+                    <ul>
+                        <h3>Course Subjects:</h3>
+                        <li>
+                            <label >First Subject:*</label>
+                            <input type="text" name="first" required>
+                            <br>
+                            <br>
+                            Number:* <input type="number" required>Out of 100
+                        </li>
+                        <br>
+                        <br>
+                        <hr>
+                        <br>
+                        <li>
+                            <label >Second Subject:*</label>
+                            <input type="text" name="second" required>
+                            <br>
+                            <br>
+                            Number:* <input type="number" required>Out of 100
+                        </li>
+                        <br>
+                        <br>
+                        <hr>
+                        <br>
+                        <li><label >Third Subject:*</label>
+                            <input type="text" name="second" required>
+                            <br>
+                            <br>
+                            Number:* <input type="number" required>Out of 100
+                        </li>
+                        <br>
+                        <br>
+                        <hr>
+                        <br>
+                        <li>
+                            <label >Elective Subject:*</label>
+                            <input type="text" name="second" required>
+                            <br>
+                            <br>
+                            Number:* <input type="number" required>Out of 100
+                        </li>
+
+                        <br>
+                        <br>
+                        <hr>
+                        <br>
+                    </ul>
+
+                </fieldset>
+                <br>
+                <br>
+                <label>Overall Percentage:* </label>
+                <input type="number" required>%
+            </fieldset>
+            <fieldset>
+                <legend><h2>Course You Want to Choose:</h2></legend>
+                <label>First Choice*</label>
+                <input type="text" name="first" required>
+                <br>
+                <br>
+                <label>Second Choice</label>
+                <input type="text" name="second">
+                <br>
+                <br>
+                <label>Third Choice</label>
+                <input type="text" name="third">
+                <br>
+                <br>
+            </fieldset>
+            <input type="submit" value="submit" id="submit">
+        </form>
+    </section>
+    <footer >
+        <div id="foot">
+            <div>
+                <ul><h3>Contact:</h3>
+                    <li>**********</li>
+                    <li>**********</li>
+                    <li>**********</li>
+                </ul>
+            </div>
+            <div><h3>Address:</h3>**/** ******* Road,*****,Kolkata-******</div>
+        </div>
+        <div><h3>© 2019 All Rights Reserved | Powered by RK Technologies</h3></div>
+    </footer>
+    </body>
+</html>

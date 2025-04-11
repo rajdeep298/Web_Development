@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function showMsg(greet,name="Unknown"){
+            alert(greet + name);
+        }
+        showMsg("Hello ","John"); // Hello John
+        showMsg("Hello ",undefined); // Hello Unknown
+
+        function showMsg1(greet,name=showMsg2()){
+            alert(greet + name);
+        }
+
+        function showMsg2(){
+            return "Unknown";
+        }
+
+        showMsg1("Hello ","John"); // Hello John
+        showMsg1("Hello ",undefined); // Hello Unknown
+
+        //Default parameters using OR operator
+        function showMsg3(greet,name){
+            name = name || "Unknown";
+            alert(greet + name);
+        }
+
+        showMsg3("Hello ","John"); // Hello John
+        showMsg3("Hello ",undefined); // Hello Unknown
+
+        //Default parameters using Conditional Operator
+        function showMsg4(greet,name){
+            name = name === undefined ? "Unknown" : name;
+            alert(greet + name);
+        }
+
+        showMsg4("Hello ","John"); // Hello John
+        showMsg4("Hello ",undefined); // Hello Unknown
+
+        //Default parameters using Nullish Coalescing Operator
+        function showMsg5(greet,name){
+            name = name ?? "Unknown";
+            alert(greet + name);
+        }
+
+        showMsg5("Hello ","John"); // Hello John
+        showMsg5("Hello ",undefined); // Hello
+    </script>
+</body>
+</html>

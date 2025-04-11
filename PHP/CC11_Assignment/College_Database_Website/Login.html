@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: antiquewhite;
+        }
+        .container{
+            width: 50%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgb(203, 198, 198);
+            border-radius: 10px;
+            box-shadow: 0 0 10px 0 black;
+            display: flex;
+            flex-direction: column;
+            border: 2px solid black;
+            margin-top: 50px;
+        }
+        .container label{
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .container input{
+            width: 100%;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+            border: 1px solid black;
+            font-size: 15px;
+            box-sizing: border-box;
+        }
+        .container button{
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border: 1px solid black;
+            font-size: 15px;
+            margin-right: 20px;
+            background-color: rgb(129, 225, 112);
+            font-weight: bold;
+        }
+        .container button:hover{
+            background-color: rgb(221, 224, 120);
+            transition: 0.2s ease-in-out;
+            color: rgb(14, 14, 14);
+        }
+        .container h1{
+            font-size: 30px;
+            font-weight: bolder;
+            margin-top: 10px;
+        }
+        .container p{
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <form action="Home.php" method="post">
+        <div class="container">
+            <center>
+                <h1>Login</h1>
+                <p>Please fill in this form to login.</p>
+            </center>
+            <hr>
+            <label for="username">Username</label>
+            <input type="text" placeholder="Enter Username" name="username" id="username" required>
+            <label for="password">Password</label>
+            <input type="password" placeholder="Enter Password" name="password" id="password" required>
+            <hr>
+            <button type="submit" class="loginbtn" name="loginbtn">Login</button>
+        </div>
+    </form>
+        
+</body>
+</html>
